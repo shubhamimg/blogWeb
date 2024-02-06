@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    .swiper-pagination-bullets{
+        display: flex;
+        justify-content: center;
+        gap: 8px !important;
+    }
+    .swiper-pagination-bullet{
+        height: 11px !important;
+        width: 11px !important;
+    }
+    .swiper-pagination-bullet-active{
+        background: black !important;
+    }
+}
